@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="250dp"
+            android:alpha="0.4"
+            app:srcCompat="@drawable/goldenstate" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/goldenstate" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/rubik"
+            android:gravity="center"
+            android:text="Welcome Admin"
+            android:textColor="#0000FF"
+            android:textSize="30dp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ID"
+            android:layout_width="220dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/text_box"
+            android:fontFamily="@font/rubik"
+            android:gravity="center"
+            android:hint="Id"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:background="@drawable/text_box"
+            android:hint="Versus"
+            android:id="@+id/VERSUS"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:imeOptions="actionNext"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+          android:fontFamily="@font/rubik"
+            android:gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="33dp"
+            android:maxLines="1"/>
+
+           <EditText
+               android:imeOptions="actionNext"
+            android:id="@+id/TANGGAL"
+            android:layout_width="220dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_box"
+            android:fontFamily="@font/rubik"
+            android:gravity="center"
+            android:hint="Date"
+                  android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:imeOptions="actionNext"
+            android:id="@+id/TIME"
+            android:layout_width="220dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_box"
+            android:fontFamily="@font/rubik"
+            android:gravity="center"
+            android:hint="Time"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:imeOptions="actionNext"
+            android:id="@+id/FINALSCORE"
+            android:layout_width="220dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_box"
+            android:fontFamily="@font/rubik"
+            android:gravity="center"
+            android:hint="Final Score"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/button_add"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/login_button"
+                android:fontFamily="@font/rubik"
+                android:text="Add"
+
+                android:textColor="#FFFFFF" />
+
+
+
+            <Button
+                android:background="@drawable/login_button"
+                android:textColor="#FFFFFF"
+                android:id="@+id/button_update"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Update" />
+
+            <Button
+                android:background="@drawable/login_button"
+                android:textColor="#FFFFFF"
+                android:id="@+id/button_delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Delete" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_logout"
+            android:text="LOGOUT"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

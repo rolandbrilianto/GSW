@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/app_background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/im_fell_great_primer_sc"
+        android:text="Strenght In The Number"
+        android:textColor="#07449E"
+        android:textSize="20sp"
+        app:layout_anchor="@+id/toolbar"
+        app:layout_anchorGravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="63dp"
+        android:layout_height="46dp"
+        app:layout_anchor="@+id/toolbar"
+        app:layout_anchorGravity="end|center"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/gsw" />
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="63dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="5dp"
+        app:layout_anchor="@+id/toolbar"
+        app:layout_anchorGravity="start|center"
+        app:srcCompat="@drawable/gsw" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="46dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="130dp"
+        android:src="@drawable/curry">
+
+    </ImageView>
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/result">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/im_fell_great_primer_sc"
+            android:text="News"
+            android:textColor="#07449E"
+            android:textSize="31sp" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button_news"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="310dp"
+        android:alpha="0.4"
+        android:background="@drawable/news"></Button>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/im_fell_great_primer_sc"
+        android:text="Steph Curry Back, Warrior defeat against Raptors "
+        android:textColor="#07449E"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/shape_coba">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/frank_ruhl_libre"
+            android:text="Stephen Curry appeared for the first time since a broken hand injury in the NBA continued Friday (3/3/2020) afternoon WIB. Return of Curry unable to save the Golden State Warriors from defeat. Steve Kerr's army is helpless to face defending NBA champion Toronto Raptors.  Warriors must  swallowed 113-121. Curry was absent for almost four months and missed 58 NBA match with the Warriors. On the fight His comeback, Curry performed quite well. On the match at The Chase Center Curry appeared as a starter  and able to score 23 points, seven rebounds and seven assists. But the accuracy of the shot was still not satisfying. Curry only put three out of 12 the three-point Raptors shot has a record win-lose 44-18."
+            android:textAlignment="center"
+            android:textColor="#07449E"
+            android:textSize="15sp" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "215709982501",
+    "firebase_url": "https://golden-state-warrior.firebaseio.com",
+    "project_id": "golden-state-warrior",
+    "storage_bucket": "golden-state-warrior.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215709982501:android:64e24149912e1f5acec4cc",
+        "android_client_info": {
+          "package_name": "com.example.goldenstatewarrior"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215709982501-r5a7bfs9iahv26rsgb7vufkrbjls7fpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB92cRpzS0k386bBNCTB6GGQ0x7b49zUk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215709982501-r5a7bfs9iahv26rsgb7vufkrbjls7fpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

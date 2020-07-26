@@ -1,0 +1,2 @@
+rootProject.name='Golden State Warrior'
+include ':app'

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/frank_ruhl_libre</item>
+        <item>@font/im_fell_great_primer_sc</item>
+        <item>@font/rubik</item>
+
+    </array>
+</resources>
